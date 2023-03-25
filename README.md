@@ -23,17 +23,17 @@
 
 </ul>
 
-            <li>The list of topics presented in this project are presented in their order below:</li>
-            <ol>
-                <li>Import all the main Python libraries</li>
-                <li>Import the data</li>
-                <li>Perform (Exploratory Data Analysis) EDA on the data</li>
-                <ul>
-                    <li>Dropping columns if required </li>
-                    <li>Analyzing the unique inputs of each column </li>
+<li>The list of topics presented in this project are presented in their order below:</li>
+<ol>
+<li>Import all the main Python libraries</li>
+<li>Import the data</li>
+<li>Perform (Exploratory Data Analysis) EDA on the data</li>
+<ul>
+<li>Dropping columns if required </li>
+<li>Analyzing the unique inputs of each column </li>
                     <li>Analyzing all the rows</li>
-                    <li>Conducting conclusions based on mathematical evidence</li>
-                    <li>Constructing plots based on the mathematical evidence</li>
+<li>Conducting conclusions based on mathematical evidence</li>
+<li>Constructing plots based on the mathematical evidence</li>
                 </ul>
 
                 <li>Utilizing  OneHotEncoding, to ensure all of the categorical columns are ready for the ML process</li>
