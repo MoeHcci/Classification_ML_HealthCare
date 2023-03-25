@@ -34,9 +34,8 @@
                     <li>Analyzing all the rows</li>
 <li>Conducting conclusions based on mathematical evidence</li>
 <li>Constructing plots based on the mathematical evidence</li>
-                </ul>
-
-                <li>Utilizing  OneHotEncoding, to ensure all of the categorical columns are ready for the ML process</li>
+</ul>
+<li>Utilizing  OneHotEncoding, to ensure all of the categorical columns are ready for the ML process</li>
                 <li>Splitting the data into a training dataset (70%) and a test dataset (30%)</li>
                 <li>After conducting EDA, it came to realization that the data is unbalanced. Therefore, SMOTE was
                     utilized to synthetically create random data for the unbalanced class and make the datasets
