@@ -3,25 +3,25 @@
 
 
 
-        <h2>General Information About The Project: </h2>
+<h2>General Information About The Project: </h2>
 
 
-        <ul>
+<ul>
 
-            <li>The whole project is available at healthcare.py file</li>
-            <li>prediction.py is an example of inputting values and getting a prediction based on the ML models from the project</li>
+<li>The whole project is available at healthcare.py file</li>
+<li>prediction.py is an example of inputting values and getting a prediction based on the ML models from the project</li>
 
-            <li>The project investigates  the <a
+<li>The project investigates  the <a
                     href="https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset">Stroke Prediction
                     Dataset</a> from kaggle.com and utilizes multiple ML Models based on the data</li>
-            <li>The dataset is used to predict whether a patient is likely to get a stroke or not based 12 input feature
+<li>The dataset is used to predict whether a patient is likely to get a stroke or not based 12 input feature
                 parameters. 11 feature parameters if we ignore the "id" feature column </li>
-            <li>The used  ML models have the following constrains </li>
-            <ul>
-                <li>Patients 18+ </li>
-                <li>Patients have a BMI below 60 </li>
+<li>The used  ML models have the following constrains </li>
+<ul>
+<li>Patients 18+ </li> 
+<li>Patients have a BMI below 60 </li>
 
-            </ul>
+</ul>
 
             <li>The list of topics presented in this project are presented in their order below:</li>
             <ol>
