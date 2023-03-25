@@ -36,30 +36,30 @@
 <li>Constructing plots based on the mathematical evidence</li>
 </ul>
 <li>Utilizing  OneHotEncoding, to ensure all of the categorical columns are ready for the ML process</li>
- <li>Splitting the data into a training dataset (70%) and a test dataset (30%)</li>
-                <li>After conducting EDA, it came to realization that the data is unbalanced. Therefore, SMOTE was
+<li>Splitting the data into a training dataset (70%) and a test dataset (30%)</li>
+<li>After conducting EDA, it came to realization that the data is unbalanced. Therefore, SMOTE was
                     utilized to synthetically create random data for the unbalanced class and make the datasets
                     balanced. SMOTE was applied to only the training dataset </li>
-                <li>Scaling the data. Even though some of the employed ML models did not need scaling (e.g., Decision
+<li>Scaling the data. Even though some of the employed ML models did not need scaling (e.g., Decision
                     Trees and Random Forest) we preferred to use the scaled data to compare all the models based on the
                     same exact scaled datasets</li>
-                <li>Conduct the ML analysis by utilizing the following algorithms for classification</li>
+<li>Conduct the ML analysis by utilizing the following algorithms for classification</li>
 
 <ol>
-                    <li>Logistic Regression</li>
-                    <li>K-Nearest Neighbors (KNN)</li>
-                    <li>Support Vector Machines (SVM) For classification</li>
-                    <li>Decision Trees (With Adaboost and Gradient Boost)</li>
-                    <li>Random Forest</li>
+<li>Logistic Regression</li>
+<li>K-Nearest Neighbors (KNN)</li>
+<li>Support Vector Machines (SVM) For classification</li>
+<li>Decision Trees (With Adaboost and Gradient Boost)</li>
+<li>Random Forest</li>
 </ol>
 
 </ol>
 
-            <li> For each of the ML algorithms: </li>
+<li> For each of the ML algorithms: </li>
 <ul>
-                <li>Cross Validation of "was utilized with 10 folds using GridSearchCV of Scikit-learn .Then, the
+<li>Cross Validation of "was utilized with 10 folds using GridSearchCV of Scikit-learn .Then, the
                     optimum hyperparameters are selected to train the model </li>
-                <li>Each model contained GridSearchCV hyperparameters that optimized for the metrics of Recall,
+<li>Each model contained GridSearchCV hyperparameters that optimized for the metrics of Recall,
                     Precision and Accuracy </li>
 </ul>
 
@@ -73,60 +73,60 @@
 
 
 <ul>
-            <li>There is a total of <b>12</b> features which are: </li>
+<li>There is a total of <b>12</b> features which are: </li>
 <ul>
-                <li><b>id</b>, this parameter  is a unique identifier </li>
+<li><b>id</b>, this parameter  is a unique identifier </li>
 <ul>
-                    <li>This column was <b>dropped</b> due its irrelevance when it comes to training ML models </li>
+<li>This column was <b>dropped</b> due its irrelevance when it comes to training ML models </li>
 </ul>
 
-                <li><b>gender</b>, this parameter represent the gender of the patient. The inputs are: "Male", "Female" or "Other" </li>
+<li><b>gender</b>, this parameter represent the gender of the patient. The inputs are: "Male", "Female" or "Other" </li>
 <ul>
-                    <li>The input of <b>"Other"</b> was dropped, because it has a single input data and it would not have been
+<li>The input of <b>"Other"</b> was dropped, because it has a single input data and it would not have been
                         possible to utilize this input </li>
 </ul>
 
-                <li><b>age</b>, this parameter represents the age of patients </li>
+<li><b>age</b>, this parameter represents the age of patients </li>
 <ul>
-                    <li>All the rows of age below 18 were dropped, because the ML models were built for people that are older than 18</li>
+<li>All the rows of age below 18 were dropped, because the ML models were built for people that are older than 18</li>
 </ul>
 
-                <li><b>hypertension</b>, this parameter represent if a patient has hypertension or not. The inputs are: 0 and 1. 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+<li><b>hypertension</b>, this parameter represent if a patient has hypertension or not. The inputs are: 0 and 1. 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
 </li>
 
 
-                <li><b>heart_disease</b>, this parameter represent if a patient has a heart_disease or not. The inputs are 0 and 1. 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart
+<li><b>heart_disease</b>, this parameter represent if a patient has a heart_disease or not. The inputs are 0 and 1. 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart
                     disease </li>
 
 
-                <li><b>ever_married</b>, this parameter represent if a patient has ever been married or not. The inputs are: "No" or "Yes" </li>
+<li><b>ever_married</b>, this parameter represent if a patient has ever been married or not. The inputs are: "No" or "Yes" </li>
 
 
-                <li><b>work_type</b>, this parameter represent the type of work the patient does. The inputs are: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"</li>
+<li><b>work_type</b>, this parameter represent the type of work the patient does. The inputs are: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"</li>
 <ul>
-                    <li>The input of <b>"Never_worked"</b>,was dropped, because it has a few input data and it would not have been
+<li>The input of <b>"Never_worked"</b>,was dropped, because it has a few input data and it would not have been
                         possible to utilize this input </li>
-                        <li>The input of <b>"children"</b>,was dropped, because the employed ML models were meant to predict patients older than 18 </li>
+<li>The input of <b>"children"</b>,was dropped, because the employed ML models were meant to predict patients older than 18 </li>
 </ul>
 
-                <li><b>Residence_type</b>, this parameter represent the location the patient lives at. The inputs are: "Rural" or "Urban"</li>
+<li><b>Residence_type</b>, this parameter represent the location the patient lives at. The inputs are: "Rural" or "Urban"</li>
 
 
-                <li><b>avg_glucose_level</b>, this parameter represents the average glucose level in blood</li>
+<li><b>avg_glucose_level</b>, this parameter represents the average glucose level in blood</li>
 
 
-                <li><b>bmi</b>, this parameter represents the body mass index</li>
+<li><b>bmi</b>, this parameter represents the body mass index</li>
 <ul>
-                    <li>201 rows were dropped from the dataset and all of them had NaN for their bmi</li>
-                    <li>All bmi above 60 were dropped. The data is built for data below a bmi of 60</li>
+<li>201 rows were dropped from the dataset and all of them had NaN for their bmi</li>
+<li>All bmi above 60 were dropped. The data is built for data below a bmi of 60</li>
 </ul>
 
-                <li><b>smoking_status</b>, this parameter represent the smoking status of the patient. The inputs are: "formerly smoked", "never smoked", "smokes" or "Unknown"*</li>
+<li><b>smoking_status</b>, this parameter represent the smoking status of the patient. The inputs are: "formerly smoked", "never smoked", "smokes" or "Unknown"*</li>
 
 
-                <li><b>stroke</b>, this is the "Label" parameter and it indicates if the patient has a stroke or not. The inputs are: 0 and 1. 1 if the patient had a stroke or 0 if no</li>
+<li><b>stroke</b>, this is the "Label" parameter and it indicates if the patient has a stroke or not. The inputs are: 0 and 1. 1 if the patient had a stroke or 0 if no</li>
 <ul>
-                    <li>The label parameter represent an imbalanced data</li>
+<li>The label parameter represent an imbalanced data</li>
 </ul>                  
 </ul>
 
@@ -138,54 +138,54 @@
 
 <ul>
 
-            <li>A count plot of the "Label" column, which is <b>stroke</b> </li>
+<li>A count plot of the "Label" column, which is <b>stroke</b> </li>
 <ul>
-                <li>The plot shows that we are working with an imbalanced data set. less than <b>5% </b>of the data are
+<li>The plot shows that we are working with an imbalanced data set. less than <b>5% </b>of the data are
                     in the stroke class and <b>95%</b> are not in the stroke category </li>
-                 <center>   <img src="countplot_stroke.png" alt="countplot_stroke" width="500" height="500">   </center>
+<center>   <img src="countplot_stroke.png" alt="countplot_stroke" width="500" height="500">   </center>
 
 </ul>
 
-            <li>A bar plot showing correlation plot between 'Label' & all the 'Numerical' columns  </li>
+<li>A bar plot showing correlation plot between 'Label' & all the 'Numerical' columns  </li>
 <ul>
-                <li>The plot indicates that the most correlated "Numerical" column is <b>age</b>. Then, followed by: <b>avg_glucose_level</b>, <b>hypertension</b>, <b>heart_disease</b>, and <b>bmi</b>  </li>
-                <center> <img src="numericalfeature_to_labelcorrelation.png" alt="numericalfeature_to_labelcorrelation" width="500" height="400"> </center>
+<li>The plot indicates that the most correlated "Numerical" column is <b>age</b>. Then, followed by: <b>avg_glucose_level</b>, <b>hypertension</b>, <b>heart_disease</b>, and <b>bmi</b>  </li>
+<center> <img src="numericalfeature_to_labelcorrelation.png" alt="numericalfeature_to_labelcorrelation" width="500" height="400"> </center>
 
 </ul>
 
-            <li>A heatmap showing correlation plot between all the 'Numerical' columns  </li>
+<li>A heatmap showing correlation plot between all the 'Numerical' columns  </li>
 <ul>
-                <li>The <b>age</b> and <b>heart_disease</b> have the highest correlation of 26%. Also, <b>age</b> seems to be a highly correlated column with all the other numerical columns  </li>
-                <center> <img src="heatmap_numerical_correlation.png" alt="heatmap_numerical_correlation" width="1200" height="600"> </center>
-            </ul>
+<li>The <b>age</b> and <b>heart_disease</b> have the highest correlation of 26%. Also, <b>age</b> seems to be a highly correlated column with all the other numerical columns  </li>
+<center> <img src="heatmap_numerical_correlation.png" alt="heatmap_numerical_correlation" width="1200" height="600"> </center>
+</ul>
 
-            <li>A count plot of the number of strokes between the male and female patients  </li>
-            <ul>
-                <li>The percentage of male patients that have a stroke is <b>5.6%</b> and the percentage of female patients that have a stroke is <b>4.8%</b>. Males do have a higher stroke percentage but it is minimal  </li>
-                <center> <img src="countplot_stroke_male_female.png" alt="countplot_stroke_male_female" width="500" height="400"> </center>
-            </ul>            
+<li>A count plot of the number of strokes between the male and female patients  </li>
+<ul>
+<li>The percentage of male patients that have a stroke is <b>5.6%</b> and the percentage of female patients that have a stroke is <b>4.8%</b>. Males do have a higher stroke percentage but it is minimal  </li>
+<center> <img src="countplot_stroke_male_female.png" alt="countplot_stroke_male_female" width="500" height="400"> </center>
+</ul>            
 
-            <li>A count plot of the number of strokes between patients that have hypertension and the patients that do not </li>
-            <ul>
-                <li>The percentage of patients that have a stroke and hypertension is <b>13%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.1%</b>. Hypertension
+<li>A count plot of the number of strokes between patients that have hypertension and the patients that do not </li>
+<ul>
+<li>The percentage of patients that have a stroke and hypertension is <b>13%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.1%</b>. Hypertension
                     is clearly a paramter that contrubutes to have a stroke  </li>
-                <center> <img src="countplot_stroke_hypertension.png" alt="countplot_stroke_hypertension" width="500" height="400"> </center>
-            </ul>                 
+<center> <img src="countplot_stroke_hypertension.png" alt="countplot_stroke_hypertension" width="500" height="400"> </center>
+</ul>                 
 
-            <li>A count plot of the number of strokes between patients that have heart disease and the patients that do not </li>
-            <ul>
-                <li>The percentage of patients that have a stroke and heart disease is <b>16%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.4%</b>. Heart disease
-                    is clearly a paramter that contrubutes to have a stroke  </li>
-                <center> <img src="countplot_stroke_heartdisease.png" alt="countplot_stroke_heartdisease" width="500" height="400"> </center>
-            </ul>   
+<li>A count plot of the number of strokes between patients that have heart disease and the patients that do not </li>
+<ul>
+<li>The percentage of patients that have a stroke and heart disease is <b>16%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.4%</b>. Heart disease
+                   is clearly a paramter that contrubutes to have a stroke  </li>
+<center> <img src="countplot_stroke_heartdisease.png" alt="countplot_stroke_heartdisease" width="500" height="400"> </center>
+</ul>   
 
-            <li>A count plot of the number of strokes between patients that have been ever married or not </li>
-            <ul>
-                <li>The percentage of patients that have a stroke and ever being married is <b>5%</b> and percentage patients that have a stroke and never been married is <b>2.5%</b>. From the data being ever married has a higher influence to having a stroke  </li>
-                <center> <img src="countplot_stroke_evermarried.png" alt="countplot_stroke_evermarried" width="500" height="400"> </center>
-            </ul>               
+<li>A count plot of the number of strokes between patients that have been ever married or not </li>
+<ul>
+<li>The percentage of patients that have a stroke and ever being married is <b>5%</b> and percentage patients that have a stroke and never been married is <b>2.5%</b>. From the data being ever married has a higher influence to having a stroke  </li>
+<center> <img src="countplot_stroke_evermarried.png" alt="countplot_stroke_evermarried" width="500" height="400"> </center>
+</ul>               
 
-            <li>A count plot of the number of strokes between patients different types of work </li>
+<li>A count plot of the number of strokes between patients different types of work </li>
             <ul>
                 <li>The percentage of patients that are self employed have the highest percentage of a stroke at <b>4%</b> while other types of work have a percentage of stroke at around <b>4.5%</b> </li>
                 <center> <img src="countplot_stroke_typeofwork.png" alt="countplot_stroke_typeofwork" width="500" height="400"> </center>
