@@ -1,10 +1,5 @@
-
-
-
-
-        <h1>
-            Classification Machine Learning (ML ) Project For Strokes Prediction
-        </h1>
+<h1>
+            Classification Machine Learning (ML ) Project For Strokes Prediction</h1>
 
 
 
