@@ -1,38 +1,16 @@
-<h1> read me </h1>
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Classification Machine Learning Project</title>
-
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-    </style>
 
 
-</head>
-
-<body>
-    <div>
         <h1>
             Classification Machine Learning (ML ) Project For Strokes Prediction
         </h1>
-    </div>
 
-    <div>
+
+
         <h2>General Information About The Project: </h2>
-    </div>
-    <div>
+
+
         <ul>
 
             <li>The whole project is available at healthcare.py file</li>
@@ -92,14 +70,14 @@
             </ul>
 
 
-    </div>
 
 
 
-    <div>
+
+
         <h2>EDA Conclusions Written Information: </h2>
-    </div>
-    <div>
+
+
         <ul>
             <li>There is a total of <b>12</b> features which are: </li>
             <ul>
@@ -160,15 +138,10 @@
 
         </ul>
 
-    </div>
 
-
-
-
-    <div>
         <h2>EDA Conclusions Plots: </h2>
-    </div>
-    <div>
+
+
         <ul>
 
             <li>A count plot of the "Label" column, which is <b>stroke</b> </li>
@@ -256,16 +229,13 @@
 
         </ul>
 
-    </div>
 
 
 
-
-
-    <div>
         <h2>Main Metrics of Evaluation: </h2>
-    </div>
-    <div>
+
+
+
         <ul>
             <li>The main metrics we focused on were: </li>
             <ul>
@@ -277,13 +247,10 @@
 
         </ul>
 
-    </div>
 
-
-
-    <div>
         <h2>Comparison  of the Algorithms: </h2>
-    </div>
+
+
 
 
     <table style="width:80%">
@@ -474,10 +441,10 @@
     </table>
 
 
-        <div>
+
             <h2>Study Conclusions Metrics of Evaluation: </h2>
-        </div>
-        <div>
+
+
             <ul>
                 <li>Decreasing False negatives is the primary goal of the study therefore, the algorithms that decrease False Negatives the most were <b> Decision Trees with Adaboost boosting</b> followed by <b> SVM </b> </li>
                 <li>During the GridSearchCV of both of these algorithms recall was set to be the metric, which makes sense why False Negatives were lower </li>
@@ -496,43 +463,3 @@
                 </ul>
 
             </ul>
-
-
-
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
