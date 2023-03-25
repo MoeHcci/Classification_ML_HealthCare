@@ -45,15 +45,15 @@
                     same exact scaled datasets</li>
                 <li>Conduct the ML analysis by utilizing the following algorithms for classification</li>
 
-                <ol>
+<ol>
                     <li>Logistic Regression</li>
                     <li>K-Nearest Neighbors (KNN)</li>
                     <li>Support Vector Machines (SVM) For classification</li>
                     <li>Decision Trees (With Adaboost and Gradient Boost)</li>
                     <li>Random Forest</li>
-                </ol>
+</ol>
 
-            </ol>
+</ol>
 
             <li> For each of the ML algorithms: </li>
 <ul>
