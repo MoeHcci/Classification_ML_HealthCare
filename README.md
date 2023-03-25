@@ -36,7 +36,7 @@
 <li>Constructing plots based on the mathematical evidence</li>
 </ul>
 <li>Utilizing  OneHotEncoding, to ensure all of the categorical columns are ready for the ML process</li>
-                <li>Splitting the data into a training dataset (70%) and a test dataset (30%)</li>
+ <li>Splitting the data into a training dataset (70%) and a test dataset (30%)</li>
                 <li>After conducting EDA, it came to realization that the data is unbalanced. Therefore, SMOTE was
                     utilized to synthetically create random data for the unbalanced class and make the datasets
                     balanced. SMOTE was applied to only the training dataset </li>
@@ -56,12 +56,12 @@
             </ol>
 
             <li> For each of the ML algorithms: </li>
-            <ul>
+<ul>
                 <li>Cross Validation of "was utilized with 10 folds using GridSearchCV of Scikit-learn .Then, the
                     optimum hyperparameters are selected to train the model </li>
                 <li>Each model contained GridSearchCV hyperparameters that optimized for the metrics of Recall,
                     Precision and Accuracy </li>
-            </ul>
+</ul>
 
 
 
@@ -69,30 +69,30 @@
 
 
 
-        <h2>EDA Conclusions Written Information: </h2>
+<h2>EDA Conclusions Written Information: </h2>
 
 
-        <ul>
+<ul>
             <li>There is a total of <b>12</b> features which are: </li>
-            <ul>
+<ul>
                 <li><b>id</b>, this parameter  is a unique identifier </li>
-                <ul>
+<ul>
                     <li>This column was <b>dropped</b> due its irrelevance when it comes to training ML models </li>
-                </ul>
+</ul>
 
                 <li><b>gender</b>, this parameter represent the gender of the patient. The inputs are: "Male", "Female" or "Other" </li>
-                <ul>
+<ul>
                     <li>The input of <b>"Other"</b> was dropped, because it has a single input data and it would not have been
                         possible to utilize this input </li>
-                </ul>
+</ul>
 
                 <li><b>age</b>, this parameter represents the age of patients </li>
-                <ul>
+<ul>
                     <li>All the rows of age below 18 were dropped, because the ML models were built for people that are older than 18</li>
-                </ul>
+</ul>
 
                 <li><b>hypertension</b>, this parameter represent if a patient has hypertension or not. The inputs are: 0 and 1. 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
-                </li>
+</li>
 
 
                 <li><b>heart_disease</b>, this parameter represent if a patient has a heart_disease or not. The inputs are 0 and 1. 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart
@@ -103,11 +103,11 @@
 
 
                 <li><b>work_type</b>, this parameter represent the type of work the patient does. The inputs are: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"</li>
-                <ul>
+<ul>
                     <li>The input of <b>"Never_worked"</b>,was dropped, because it has a few input data and it would not have been
                         possible to utilize this input </li>
                         <li>The input of <b>"children"</b>,was dropped, because the employed ML models were meant to predict patients older than 18 </li>
-                    </ul>
+</ul>
 
                 <li><b>Residence_type</b>, this parameter represent the location the patient lives at. The inputs are: "Rural" or "Urban"</li>
 
@@ -116,45 +116,45 @@
 
 
                 <li><b>bmi</b>, this parameter represents the body mass index</li>
-                <ul>
+<ul>
                     <li>201 rows were dropped from the dataset and all of them had NaN for their bmi</li>
                     <li>All bmi above 60 were dropped. The data is built for data below a bmi of 60</li>
-                </ul>
+</ul>
 
                 <li><b>smoking_status</b>, this parameter represent the smoking status of the patient. The inputs are: "formerly smoked", "never smoked", "smokes" or "Unknown"*</li>
 
 
                 <li><b>stroke</b>, this is the "Label" parameter and it indicates if the patient has a stroke or not. The inputs are: 0 and 1. 1 if the patient had a stroke or 0 if no</li>
-                <ul>
+<ul>
                     <li>The label parameter represent an imbalanced data</li>
-                </ul>                  
-            </ul>
+</ul>                  
+</ul>
 
-        </ul>
-
-
-        <h2>EDA Conclusions Plots: </h2>
+</ul>
 
 
-        <ul>
+<h2>EDA Conclusions Plots: </h2>
+
+
+<ul>
 
             <li>A count plot of the "Label" column, which is <b>stroke</b> </li>
-            <ul>
+<ul>
                 <li>The plot shows that we are working with an imbalanced data set. less than <b>5% </b>of the data are
                     in the stroke class and <b>95%</b> are not in the stroke category </li>
                  <center>   <img src="countplot_stroke.png" alt="countplot_stroke" width="500" height="500">   </center>
 
-            </ul>
+</ul>
 
             <li>A bar plot showing correlation plot between 'Label' & all the 'Numerical' columns  </li>
-            <ul>
+<ul>
                 <li>The plot indicates that the most correlated "Numerical" column is <b>age</b>. Then, followed by: <b>avg_glucose_level</b>, <b>hypertension</b>, <b>heart_disease</b>, and <b>bmi</b>  </li>
                 <center> <img src="numericalfeature_to_labelcorrelation.png" alt="numericalfeature_to_labelcorrelation" width="500" height="400"> </center>
 
-            </ul>
+</ul>
 
             <li>A heatmap showing correlation plot between all the 'Numerical' columns  </li>
-            <ul>
+<ul>
                 <li>The <b>age</b> and <b>heart_disease</b> have the highest correlation of 26%. Also, <b>age</b> seems to be a highly correlated column with all the other numerical columns  </li>
                 <center> <img src="heatmap_numerical_correlation.png" alt="heatmap_numerical_correlation" width="1200" height="600"> </center>
             </ul>
