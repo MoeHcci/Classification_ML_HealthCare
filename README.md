@@ -142,82 +142,82 @@
 <ul>
 <li>The plot shows that we are working with an imbalanced data set. less than <b>5% </b>of the data are
                     in the stroke class and <b>95%</b> are not in the stroke category </li>
-<center>   <img src="countplot_stroke.png" alt="countplot_stroke" width="500" height="500">   </center>
+<center>   <img src="Figures/countplot_stroke.png" alt="countplot_stroke" width="500" height="500">   </center>
 
 </ul>
 
 <li>A bar plot showing correlation plot between 'Label' & all the 'Numerical' columns  </li>
 <ul>
 <li>The plot indicates that the most correlated "Numerical" column is <b>age</b>. Then, followed by: <b>avg_glucose_level</b>, <b>hypertension</b>, <b>heart_disease</b>, and <b>bmi</b>  </li>
-<center> <img src="numericalfeature_to_labelcorrelation.png" alt="numericalfeature_to_labelcorrelation" width="500" height="400"> </center>
+<center> <img src="Figures/numericalfeature_to_labelcorrelation.png" alt="numericalfeature_to_labelcorrelation" width="500" height="400"> </center>
 
 </ul>
 
 <li>A heatmap showing correlation plot between all the 'Numerical' columns  </li>
 <ul>
 <li>The <b>age</b> and <b>heart_disease</b> have the highest correlation of 26%. Also, <b>age</b> seems to be a highly correlated column with all the other numerical columns  </li>
-<center> <img src="heatmap_numerical_correlation.png" alt="heatmap_numerical_correlation" width="1200" height="600"> </center>
+<center> <img src="Figures/heatmap_numerical_correlation.png" alt="heatmap_numerical_correlation" width="1200" height="600"> </center>
 </ul>
 
 <li>A count plot of the number of strokes between the male and female patients  </li>
 <ul>
 <li>The percentage of male patients that have a stroke is <b>5.6%</b> and the percentage of female patients that have a stroke is <b>4.8%</b>. Males do have a higher stroke percentage but it is minimal  </li>
-<center> <img src="countplot_stroke_male_female.png" alt="countplot_stroke_male_female" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_male_female.png" alt="countplot_stroke_male_female" width="500" height="400"> </center>
 </ul>            
 
 <li>A count plot of the number of strokes between patients that have hypertension and the patients that do not </li>
 <ul>
 <li>The percentage of patients that have a stroke and hypertension is <b>13%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.1%</b>. Hypertension
                     is clearly a paramter that contrubutes to have a stroke  </li>
-<center> <img src="countplot_stroke_hypertension.png" alt="countplot_stroke_hypertension" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_hypertension.png" alt="countplot_stroke_hypertension" width="500" height="400"> </center>
 </ul>                 
 
 <li>A count plot of the number of strokes between patients that have heart disease and the patients that do not </li>
 <ul>
 <li>The percentage of patients that have a stroke and heart disease is <b>16%</b> and percentage patients that have a stroke and do not have hypertension is <b>4.4%</b>. Heart disease
                    is clearly a paramter that contrubutes to have a stroke  </li>
-<center> <img src="countplot_stroke_heartdisease.png" alt="countplot_stroke_heartdisease" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_heartdisease.png" alt="countplot_stroke_heartdisease" width="500" height="400"> </center>
 </ul>   
 
 <li>A count plot of the number of strokes between patients that have been ever married or not </li>
 <ul>
 <li>The percentage of patients that have a stroke and ever being married is <b>5%</b> and percentage patients that have a stroke and never been married is <b>2.5%</b>. From the data being ever married has a higher influence to having a stroke  </li>
-<center> <img src="countplot_stroke_evermarried.png" alt="countplot_stroke_evermarried" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_evermarried.png" alt="countplot_stroke_evermarried" width="500" height="400"> </center>
 </ul>               
 
 <li>A count plot of the number of strokes between patients different types of work </li>
 <ul>
 <li>The percentage of patients that are self employed have the highest percentage of a stroke at <b>4%</b> while other types of work have a percentage of stroke at around <b>4.5%</b> </li>
-<center> <img src="countplot_stroke_typeofwork.png" alt="countplot_stroke_typeofwork" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_typeofwork.png" alt="countplot_stroke_typeofwork" width="500" height="400"> </center>
 </ul>               
 
 <li>A count plot of the number of strokes between patients different areas of living</li>
 <ul>
 <li>The percentage of patients depending on the location of their stay is very similar at around <b>5%</b></li>
-<center> <img src="countplot_stroke_location.png" alt="countplot_stroke_location" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_location.png" alt="countplot_stroke_location" width="500" height="400"> </center>
 </ul>               
 
 <li>A count plot of the number of strokes between patients different smoking status </li>
 <ul>
 <li>The percentage of patients that have a stroke and formerly is the highest at <b>7%</b> in comparison to the other options which have an average of around <b>4.5%</b>  </li>
-<center> <img src="countplot_stroke_smokestatus.png" alt="countplot_stroke_smokestatus" width="500" height="400"> </center>
+<center> <img src="Figures/countplot_stroke_smokestatus.png" alt="countplot_stroke_smokestatus" width="500" height="400"> </center>
 </ul>  
 
 <li>A bar plot showing the relationship of strokes and age</li>
 <ul>
 <li>Older patients tend to be more prone to having a stroke than younger patients  </li>
-<center> <img src="barplot_age_stroke.png" alt="barplot_age_stroke" width="500" height="400"> </center>
+<center> <img src="Figures/barplot_age_stroke.png" alt="barplot_age_stroke" width="500" height="400"> </center>
 </ul>             
 
 
 <li>A bar plot showing the relationship of strokes and average glucose levels</li>            <ul>
-<li>Patients that have an average glucose levels between 55-100 tend to be more prone to having a stroke </li>
-<center> <img src="barplot_avgglucoselevelstroke.png" alt="barplot_avgglucoselevelstroke" width="500" height="400"> </center>
+<li>Based on the plot it is difficult to suggest the relationship between strokes and the average glucose levels </li>
+<center> <img src="Figures/barplot_avgglucoselevelstroke.png" alt="barplot_avgglucoselevelstroke" width="500" height="400"> </center>
 </ul>             
 
 <li>A bar plot showing the relationship of strokes and bmi levels</li>            <ul>
 <li>Patients that have a bmi above 22 tend to be more prone to having a stroke </li>
-<center> <img src="barplot_bmi_stroke.png" alt="barplot_bmi_stroke" width="500" height="400"> </center>
+<center> <img src="Figures/barplot_bmi_stroke.png" alt="barplot_bmi_stroke" width="500" height="400"> </center>
 </ul>             
 
 
