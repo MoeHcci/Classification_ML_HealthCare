@@ -1,5 +1,5 @@
 <h1>
-            Welcome to my Classification Machine Learning (ML ) Project For Strokes Prediction &#128075; </h1>
+            Welcome to my Classification Machine Learning (ML) Project For Strokes Prediction &#128075; </h1>
 
 
 
