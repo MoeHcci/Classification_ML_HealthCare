@@ -186,274 +186,274 @@
 </ul>               
 
 <li>A count plot of the number of strokes between patients different types of work </li>
-            <ul>
-                <li>The percentage of patients that are self employed have the highest percentage of a stroke at <b>4%</b> while other types of work have a percentage of stroke at around <b>4.5%</b> </li>
-                <center> <img src="countplot_stroke_typeofwork.png" alt="countplot_stroke_typeofwork" width="500" height="400"> </center>
-            </ul>               
+<ul>
+<li>The percentage of patients that are self employed have the highest percentage of a stroke at <b>4%</b> while other types of work have a percentage of stroke at around <b>4.5%</b> </li>
+<center> <img src="countplot_stroke_typeofwork.png" alt="countplot_stroke_typeofwork" width="500" height="400"> </center>
+</ul>               
 
-            <li>A count plot of the number of strokes between patients different areas of living</li>
-            <ul>
-                <li>The percentage of patients depending on the location of their stay is very similar at around <b>5%</b></li>
-                <center> <img src="countplot_stroke_location.png" alt="countplot_stroke_location" width="500" height="400"> </center>
-            </ul>               
+<li>A count plot of the number of strokes between patients different areas of living</li>
+<ul>
+<li>The percentage of patients depending on the location of their stay is very similar at around <b>5%</b></li>
+<center> <img src="countplot_stroke_location.png" alt="countplot_stroke_location" width="500" height="400"> </center>
+</ul>               
 
-            <li>A count plot of the number of strokes between patients different smoking status </li>
-            <ul>
-                <li>The percentage of patients that have a stroke and formerly is the highest at <b>7%</b> in comparison to the other options which have an average of around <b>4.5%</b>  </li>
-                <center> <img src="countplot_stroke_smokestatus.png" alt="countplot_stroke_smokestatus" width="500" height="400"> </center>
-            </ul>  
+<li>A count plot of the number of strokes between patients different smoking status </li>
+<ul>
+<li>The percentage of patients that have a stroke and formerly is the highest at <b>7%</b> in comparison to the other options which have an average of around <b>4.5%</b>  </li>
+<center> <img src="countplot_stroke_smokestatus.png" alt="countplot_stroke_smokestatus" width="500" height="400"> </center>
+</ul>  
 
-            <li>A bar plot showing the relationship of strokes and age</li>
-            <ul>
-                <li>Older patients tend to be more prone to having a stroke than younger patients  </li>
-                <center> <img src="barplot_age_stroke.png" alt="barplot_age_stroke" width="500" height="400"> </center>
-            </ul>             
-
-
-            <li>A bar plot showing the relationship of strokes and average glucose levels</li>            <ul>
-                <li>Patients that have an average glucose levels between 55-100 tend to be more prone to having a stroke </li>
-                <center> <img src="barplot_avgglucoselevelstroke.png" alt="barplot_avgglucoselevelstroke" width="500" height="400"> </center>
-            </ul>             
-
-            <li>A bar plot showing the relationship of strokes and bmi levels</li>            <ul>
-                <li>Patients that have a bmi above 22 tend to be more prone to having a stroke </li>
-                <center> <img src="barplot_bmi_stroke.png" alt="barplot_bmi_stroke" width="500" height="400"> </center>
-            </ul>             
+<li>A bar plot showing the relationship of strokes and age</li>
+<ul>
+<li>Older patients tend to be more prone to having a stroke than younger patients  </li>
+<center> <img src="barplot_age_stroke.png" alt="barplot_age_stroke" width="500" height="400"> </center>
+</ul>             
 
 
-        </ul>
+<li>A bar plot showing the relationship of strokes and average glucose levels</li>            <ul>
+<li>Patients that have an average glucose levels between 55-100 tend to be more prone to having a stroke </li>
+<center> <img src="barplot_avgglucoselevelstroke.png" alt="barplot_avgglucoselevelstroke" width="500" height="400"> </center>
+</ul>             
+
+<li>A bar plot showing the relationship of strokes and bmi levels</li>            <ul>
+<li>Patients that have a bmi above 22 tend to be more prone to having a stroke </li>
+<center> <img src="barplot_bmi_stroke.png" alt="barplot_bmi_stroke" width="500" height="400"> </center>
+</ul>             
 
 
-
-
-        <h2>Main Metrics of Evaluation: </h2>
+</ul>
 
 
 
-        <ul>
-            <li>The main metrics we focused on were: </li>
-            <ul>
-                <li>Increase Recall, because higher recall means a decrease in <b>False Negatives</b> </li>
-                <li>Decrease the False Negatives, because in the case of this data set we want to minimize the number of
+
+<h2>Main Metrics of Evaluation: </h2>
+
+
+
+<ul>
+<li>The main metrics we focused on were: </li>
+<ul>
+<li>Increase Recall, because higher recall means a decrease in <b>False Negatives</b> </li>
+<li>Decrease the False Negatives, because in the case of this data set we want to minimize the number of
                     patients that are told that they will not have a stroke but end up having a stroke</li>
 
-            </ul>
+</ul>
 
-        </ul>
+</ul>
 
 
-        <h2>Comparison  of the Algorithms: </h2>
+<h2>Comparison  of the Algorithms: </h2>
 
 
 
 
-    <table style="width:80%">
-        <tr>
-            <td><b>Algorithm</b></td>
-            <td><b>False Negative</b></td>
-            <td><b>True Positive</b></td>
-            <td><b>True Negative</b></td>
-            <td><b>False Positive</b></td>
+<table style="width:80%">
+<tr>
+<td><b>Algorithm</b></td>
+<td><b>False Negative</b></td>
+<td><b>True Positive</b></td>
+<td><b>True Negative</b></td>
+<td><b>False Positive</b></td>
 
-        </tr>
-        <tr>
-            <td><b>Logistic Regression - Metric = Recall </b></td>
-            <td>20 </td>
-            <td>827 </td>
-            <td>47 </td>
-            <td>323 </td>
+</tr>
+<tr>
+<td><b>Logistic Regression - Metric = Recall </b></td>
+<td>20 </td>
+<td>827 </td>
+<td>47 </td>
+<td>323 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Logistic Regression - Metric = Precision </b></td>
-            <td>20 </td>
-            <td>827 </td>
-            <td>47 </td>
-            <td>323 </td>
+<tr>
+<td><b>Logistic Regression - Metric = Precision </b></td>
+<td>20 </td>
+<td>827 </td>
+<td>47 </td>
+<td>323 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Logistic Regression - Metric = Accuracy </b></td>
-            <td>20 </td>
-            <td>827 </td>
-            <td>47 </td>
-            <td>323 </td>
+<tr>
+<td><b>Logistic Regression - Metric = Accuracy </b></td>
+<td>20 </td>
+<td>827 </td>
+<td>47 </td>
+<td>323 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>KNN - Metric = Recall </b></td>
-            <td>60 </td>
-            <td>1072 </td>
-            <td>7 </td>
-            <td>78 </td>
+<tr>
+<td><b>KNN - Metric = Recall </b></td>
+<td>60 </td>
+<td>1072 </td>
+<td>7 </td>
+<td>78 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>KNN - Metric = Precision </b></td>
-            <td>60 </td>
-            <td>1086 </td>
-            <td>7 </td>
-            <td>64 </td>
+<tr>
+<td><b>KNN - Metric = Precision </b></td>
+<td>60 </td>
+<td>1086 </td>
+<td>7 </td>
+<td>64 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>KNN - Metric = Accuracy </b></td>
-            <td>60 </td>
-            <td>1086 </td>
-            <td>7 </td>
-            <td>64 </td>
+<tr>
+<td><b>KNN - Metric = Accuracy </b></td>
+<td>60 </td>
+<td>1086 </td>
+<td>7 </td>
+<td>64 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>SVM-SVC - Metric = Recall </b></td>
-            <td> <b>6 </b> </td>
-            <td>  <b>353 </b>   </td>
-            <td>    <b> 61</b>    </td>
+<tr>
+<td><b>SVM-SVC - Metric = Recall </b></td>
+<td> <b>6 </b> </td>
+<td>  <b>353 </b>   </td>
+<td>    <b> 61</b>    </td>
 
-            <td>    <b> 797</b>  </td>
+<td>    <b> 797</b>  </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>SVM-SVC - Metric = Precision </b></td>
-            <td>67 </td>
-            <td>1147 </td>
-            <td>0 </td>
-            <td>3 </td>
+<tr>
+<td><b>SVM-SVC - Metric = Precision </b></td>
+<td>67 </td>
+<td>1147 </td>
+<td>0 </td>
+<td>3 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>SVM-SVC - Metric = Accuracy </b></td>
-            <td>58 </td>
-            <td>1089 </td>
-            <td>9 </td>
-            <td>61 </td>
+<tr>
+<td><b>SVM-SVC - Metric = Accuracy </b></td>
+<td>58 </td>
+<td>1089 </td>
+<td>9 </td>
+<td>61 </td>
 
 
-        </tr>
+</tr>
 
 
-        <tr>
-            <td><b>Decision Trees (Adaboost) - Metric = Recall </b></td>
-            <td> <b>5</b> </td>
-            <td> <b> 571  </b> </td>
-            <td>   <b> 62</b></td>
-            <td> <b> 579</b></td>
+<tr>
+<td><b>Decision Trees (Adaboost) - Metric = Recall </b></td>
+<td> <b>5</b> </td>
+<td> <b> 571  </b> </td>
+<td>   <b> 62</b></td>
+<td> <b> 579</b></td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Decision Trees (Adaboost) - Metric = Precision </b></td>
-            <td>66 </td>
-            <td>1149 </td>
-            <td>1 </td>
-            <td>1 </td>
+<tr>
+<td><b>Decision Trees (Adaboost) - Metric = Precision </b></td>
+<td>66 </td>
+<td>1149 </td>
+<td>1 </td>
+<td>1 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Decision Trees (Adaboost) - Metric = Accuracy </b></td>
-            <td>63 </td>
-            <td>1141 </td>
-            <td>4 </td>
-            <td>9 </td>
+<tr>
+<td><b>Decision Trees (Adaboost) - Metric = Accuracy </b></td>
+<td>63 </td>
+<td>1141 </td>
+<td>4 </td>
+<td>9 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Decision Trees (Gradient Boost) - Metric = Recall </b></td>
-            <td>61 </td>
-            <td>1138 </td>
-            <td>6 </td>
-            <td>12 </td>
+<tr>
+<td><b>Decision Trees (Gradient Boost) - Metric = Recall </b></td>
+<td>61 </td>
+<td>1138 </td>
+<td>6 </td>
+<td>12 </td>
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Decision Trees (Gradient Boost) - Metric = Precision </b></td>
-            <td>67 </td>
-            <td>1148 </td>
-            <td>0 </td>
-            <td>2 </td>
+<tr>
+<td><b>Decision Trees (Gradient Boost) - Metric = Precision </b></td>
+<td>67 </td>
+<td>1148 </td>
+<td>0 </td>
+<td>2 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Decision Trees (Gradient Boost) - Metric = Accuracy </b></td>
-            <td>64 </td>
-            <td>1137 </td>
-            <td>3 </td>
-            <td>13 </td>
+<tr>
+<td><b>Decision Trees (Gradient Boost) - Metric = Accuracy </b></td>
+<td>64 </td>
+<td>1137 </td>
+<td>3 </td>
+<td>13 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Random Forest - Metric = Recall </b></td>
-            <td>63 </td>
-            <td>1119 </td>
-            <td>4 </td>
-            <td>31 </td>
+<tr>
+<td><b>Random Forest - Metric = Recall </b></td>
+<td>63 </td>
+<td>1119 </td>
+<td>4 </td>
+<td>31 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Random Forest - Metric = Precision </b></td>
-            <td>64 </td>
-            <td>1138 </td>
-            <td>3 </td>
-            <td>12 </td>
+<tr>
+<td><b>Random Forest - Metric = Precision </b></td>
+<td>64 </td>
+<td>1138 </td>
+<td>3 </td>
+<td>12 </td>
 
 
-        </tr>
+</tr>
 
-        <tr>
-            <td><b>Random Forest - Metric = Accuracy </b></td>
-            <td>67 </td>
-            <td>1141 </td>
-            <td>0 </td>
-            <td>0 </td>
+<tr>
+<td><b>Random Forest - Metric = Accuracy </b></td>
+<td>67 </td>
+<td>1141 </td>
+<td>0 </td>
+<td>0 </td>
 
 
-        </tr>
+</tr>
 
-    </table>
+</table>
 
 
 
-            <h2>Study Conclusions Metrics of Evaluation: </h2>
+<h2>Study Conclusions Metrics of Evaluation: </h2>
 
 
-            <ul>
-                <li>Decreasing False negatives is the primary goal of the study therefore, the algorithms that decrease False Negatives the most were <b> Decision Trees with Adaboost boosting</b> followed by <b> SVM </b> </li>
-                <li>During the GridSearchCV of both of these algorithms recall was set to be the metric, which makes sense why False Negatives were lower </li>
-                <li>Out of these two algorithms  <b> Decision Trees with Adaboost boosting</b> performed better in the aspects of True Positives as well in Comparison to  <b> SVM </b> making it the best algorithm for this study</li>
-                <li>The <b> Decision Trees with Adaboost boosting</b> GridSearchCV compared the following combinations of hyperparameters </li>
-                <ul>
-                    <li>Number of Trees: 10, 50, and 100
-                    <li>learning_rate  0.01, 0.1, and 1 </li>
-                    </ul>
-                    <li>The selected number of trees was 10 and the learning rate was 0.01</li>
-                    <li>The lowest learning rate was selected which means each tree in the has lesser say on the final decision </li>
-                    <li>The lowest number of trees was selected which leads to a lower overfitting possibility </li>
+<ul>
+<li>Decreasing False negatives is the primary goal of the study therefore, the algorithms that decrease False Negatives the most were <b> Decision Trees with Adaboost boosting</b> followed by <b> SVM </b> </li>
+<li>During the GridSearchCV of both of these algorithms recall was set to be the metric, which makes sense why False Negatives were lower </li>
+<li>Out of these two algorithms  <b> Decision Trees with Adaboost boosting</b> performed better in the aspects of True Positives as well in Comparison to <b> SVM </b> making it the best algorithm for this study</li>
+<li>The <b> Decision Trees with Adaboost boosting</b> GridSearchCV compared the following combinations of hyperparameters </li>
+<ul>
+<li>Number of Trees: 10, 50, and 100
+<li>learning_rate  0.01, 0.1, and 1 </li>
+</ul>
+<li>The selected number of trees was 10 and the learning rate was 0.01</li>
+<li>The lowest learning rate was selected which means each tree in the has lesser say on the final decision </li>
+<li>The lowest number of trees was selected which leads to a lower overfitting possibility </li>
 
 
 
-                </ul>
+</ul>
 
-            </ul>
+</ul>
