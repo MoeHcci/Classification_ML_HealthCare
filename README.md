@@ -1,5 +1,5 @@
 <h1>
-            Classification Machine Learning (ML ) Project For Strokes Prediction</h1>
+            Welcome to my Classification Machine Learning (ML ) Project For Strokes Prediction &#128075; </h1>
 
 
 
@@ -18,7 +18,7 @@
                 parameters. 11 feature parameters if we ignore the "id" feature column </li>
 <li>The used  ML models have the following constrains </li>
 <ul>
-<li>Patients 18+ </li> 
+<li>Patients 18+ </li>
 <li>Patients have a BMI below 60 </li>
 
 </ul>
